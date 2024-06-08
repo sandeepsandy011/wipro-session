@@ -1,0 +1,21 @@
+import java.util.*;
+class alpha
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the character1:");
+		char a=sc.next().charAt(0);
+		System.out.println("Enter the character2:");
+		char b=sc.next().charAt(0);
+		if(a<b)
+		{
+			System.out.print(a+","+b);
+		}
+		else
+		{
+			System.out.print(b+","+a);
+		}
+
+	}
+}
