@@ -1,0 +1,23 @@
+import java.util.*;
+class numdig
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the character");
+		char a=sc.next().charAt(0);
+		if(a>='a' && a<='z' || a>='A' && a<='Z')
+			{
+				System.out.print(a+" is alphabet");
+			}
+		else if(a>48 && a<=57)
+			{
+				System.out.print(a+" is Digit");
+			}
+		else
+			{
+				System.out.print(a+" is special character");
+			}
+		
+	}
+}
