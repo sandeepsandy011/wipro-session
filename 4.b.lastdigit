@@ -1,0 +1,27 @@
+import java.util.*;
+class lastdigit 
+{
+	public static boolean lastdigit(int a,int b) 
+	{
+		if(a%10==b%10)
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+	}
+
+		public static void main(String[] args)
+		{
+			Scanner sc=new Scanner(System.in);
+			System.out.println("Enter the number:");
+			int a=sc.nextInt();
+			System.out.println("Enter the number:");
+			int b=sc.nextInt();
+			System.out.print(lastdigit(a,b));
+		}
+
+	
+}
