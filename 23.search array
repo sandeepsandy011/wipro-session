@@ -1,0 +1,29 @@
+import java.util.*;
+class searchnum 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the numbers: ");
+		int n=sc.nextInt();
+		int a[]=new int[n];
+		for(int i=0;i<=n-1;i++)
+		{
+			a[i]=sc.nextInt();
+		}
+		int b=sc.nextInt();
+		int c=-1;
+		for(int j=0;j<=n-1;j++)
+		{
+			if(a[j]==b)
+			{
+				c=j;
+				break;
+			}
+		}
+		System.out.println(c);
+
+
+		
+	}
+}
