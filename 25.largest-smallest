@@ -1,0 +1,19 @@
+import java.util.*;
+class larsmal 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter numbers: ");
+		int n=sc.nextInt();
+		int a[]=new int[n];
+		for(int i=0;i<=n-1;i++)
+		{
+			a[i]=sc.nextInt();
+		}
+		Arrays.sort(a);
+		System.out.println("two smallest numbers are: "+a[0] + " and " +a[1]);
+		System.out.println("two largest numbers are: "+a[n-2] + " and " +a[n-1]);
+
+	}
+}
